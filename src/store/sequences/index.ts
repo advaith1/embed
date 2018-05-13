@@ -1,4 +1,4 @@
-import { sequence, sequenceWithProps } from 'fluent'
+import { sequence, sequenceWithProps } from 'cerebral.proxy'
 
 import Modal from '../../types/modal'
 import { message } from '../../types/socket'

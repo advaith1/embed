@@ -27,6 +27,7 @@
     "emojis-list": "^2.1.0",
     "emotion": "^9.1.2",
     "emotion-theming": "^9.1.2",
+    "function-tree": "^3.3.0-1526222433248",
     "graphql": "^0.13.2",
     "graphql-request": "^1.5.1",
     "graphql-tag": "^2.8.0",

@@ -6,6 +6,7 @@ import Message from '../types/message'
 import Modal from '../types/modal'
 import { ParsedUrl } from '../types/url'
 import { User } from '../types/user'
+import * as computed from './computed'
 import * as signals from './sequences'
 
 interface Channel {
@@ -68,3 +69,5 @@ export interface State {
 }
 
 export type Signals = { [key in keyof typeof signals]: typeof signals[key] }
+
+export type Computed = { [key in keyof typeof computed]: typeof computed[key] }
